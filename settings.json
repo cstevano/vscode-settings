@@ -2,6 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Palenight (Mild Contrast)",
   "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "Tabler",
   "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": false,
   "workbench.list.smoothScrolling": true,
@@ -26,8 +27,6 @@
   "files.exclude": {
     "**/desktop.ini": true
   },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
   "chat.commandCenter.enabled": false,
   "breadcrumbs.enabled": false,
   "explorer.confirmDelete": false
