@@ -27,12 +27,12 @@
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.rulers": [80],
   "terminal.integrated.smoothScrolling": true,
   "files.exclude": {
     "**/desktop.ini": true
   },
   "chat.commandCenter.enabled": false,
   "breadcrumbs.enabled": false,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
 }
