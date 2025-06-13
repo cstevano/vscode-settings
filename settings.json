@@ -1,7 +1,7 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Simple Dark",
   "workbench.productIconTheme": "Tabler",
+  "workbench.colorTheme": "Simple Dark",
   "workbench.startupEditor": "none",
   "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": false,
@@ -25,14 +25,22 @@
   "editor.fontWeight": "600",
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
-  "editor.fontSize": 16,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.parameterHints.enabled": false,
   "terminal.integrated.smoothScrolling": true,
-  "files.exclude": {
-    "**/desktop.ini": true
-  },
   "chat.commandCenter.enabled": false,
   "breadcrumbs.enabled": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.exclude": {
+    "**/desktop.ini": true
+  },
+
 }
