@@ -8,11 +8,11 @@
   "workbench.list.smoothScrolling": true,
   "window.restoreFullscreen": true,
   "window.zoomLevel": 1,
-  "editor.suggest.showWords": false,
   "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
   "window.customTitleBarVisibility": "auto",
   "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
+  "editor.suggest.showWords": false,
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
   "editor.lineHeight": 25,
@@ -30,6 +30,7 @@
   "terminal.integrated.smoothScrolling": true,
   "chat.commandCenter.enabled": false,
   "breadcrumbs.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "[javascript]": {
@@ -41,6 +42,5 @@
   },
   "files.exclude": {
     "**/desktop.ini": true
-  },
-
+  }
 }
